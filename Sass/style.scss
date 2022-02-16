@@ -2,7 +2,6 @@
 @import "common.scss";
 @import "animation.scss";
 
-
 /*==============================
               HEADER
  ==============================*/
@@ -14,15 +13,15 @@ nav {
 nav.navbar.sticky-top {
     padding: 0 !important;
     box-shadow: 0 -4px 10px #000;
-    background: #F8F9FA;
+    background: #f8f9fa;
 }
 
 nav.navbar.sticky-top ul.navbar-nav li {
-    margin: .9rem 1rem 0;
+    margin: 0.9rem 1rem 0;
 }
 
 nav.navbar.sticky-top a.btn {
-    padding: .6rem 2rem !important;
+    padding: 0.6rem 2rem !important;
 }
 
 .navbar-brand {
@@ -45,9 +44,9 @@ ul.navbar-nav {
             }
 
             &:active {
-                transform: scale(.9);
-                -webkit-transform: scale(.9);
-                -moz-transform: scale(.9);
+                transform: scale(0.9);
+                -webkit-transform: scale(0.9);
+                -moz-transform: scale(0.9);
             }
         }
 
@@ -58,7 +57,7 @@ ul.navbar-nav {
             animation: none;
 
             &:active {
-                transform: translateY(-5px) scale(.9);
+                transform: translateY(-5px) scale(0.9);
             }
         }
 
@@ -71,7 +70,6 @@ ul.navbar-nav {
             color: $logoColor;
         }
     }
-
 }
 
 button.navbar-toggler {
@@ -89,11 +87,6 @@ button.navbar-toggler {
         height: none;
     }
 }
-
-
-
-
-
 
 /*==============================
              HOME
@@ -144,7 +137,7 @@ img.bg-icons2 {
                 background: #feaa25;
                 color: #fff;
                 display: inline-block;
-                padding: .5rem;
+                padding: 0.5rem;
                 font-size: 1.6rem;
                 border-radius: 50px;
                 -webkit-border-radius: 50px;
@@ -155,7 +148,7 @@ img.bg-icons2 {
                 display: inline-block;
                 font-size: 1.6rem;
                 color: $primaryColor;
-                margin-left: .5rem;
+                margin-left: 0.5rem;
             }
         }
 
@@ -173,8 +166,6 @@ img.bg-icons2 {
                 margin: 1rem 0 2rem;
             }
         }
-
-
 
         .home-buttons {
             .btn {
@@ -195,15 +186,13 @@ img.bg-icons2 {
                 }
 
                 &:active {
-                    transform: scale(.9);
-                    -webkit-transform: scale(.9);
-                    -moz-transform: scale(.9);
+                    transform: scale(0.9);
+                    -webkit-transform: scale(0.9);
+                    -moz-transform: scale(0.9);
                 }
             }
         }
     }
-
-
 
     .home-image {
         display: grid;
@@ -214,15 +203,6 @@ img.bg-icons2 {
         }
     }
 }
-
-
-
-
-
-
-
-
-
 
 /*==============================
          COMPANIES
@@ -239,7 +219,6 @@ img.bg-icons2 {
 }
 
 .inner-companies-area {
-
     .companies-logo-wrapper {
         display: grid;
         padding: 3rem;
@@ -250,12 +229,6 @@ img.bg-icons2 {
         }
     }
 }
-
-
-
-
-
-
 
 /*==============================
           FEATURES 
@@ -297,7 +270,6 @@ img.bg-icons2 {
                 width: 90%;
                 border-radius: 50%;
             }
-
         }
 
         .features-text {
@@ -321,13 +293,6 @@ img.bg-icons2 {
         color: $green;
     }
 }
-
-
-
-
-
-
-
 
 /*==============================
         SMART-JACTPOT
@@ -359,7 +324,6 @@ img.bg-icons2 {
         }
     }
 
-
     .features-gallery {
         margin: 5rem 0 1rem;
         justify-content: space-between;
@@ -373,9 +337,6 @@ img.bg-icons2 {
         color: $green;
     }
 }
-
-
-
 
 /*==============================
         DESIGNED
@@ -394,12 +355,6 @@ img.bg-icons2 {
         text-align: justify;
     }
 }
-
-
-
-
-
-
 
 /*==============================
         CHOOSEN REASON
@@ -424,9 +379,6 @@ img.bg-icons2 {
         text-align: center;
     }
 }
-
-
-
 
 /*==============================
         ULTIMATE FEATURES
@@ -455,8 +407,8 @@ img.bg-icons2 {
 
         i {
             margin-left: 2rem;
-            transition: transform .5s;
-            animation: down .5s linear infinite alternate;
+            transition: transform 0.5s;
+            animation: down 0.5s linear infinite alternate;
         }
     }
 
@@ -480,13 +432,7 @@ img.bg-icons2 {
     .hidden {
         display: none;
     }
-
 }
-
-
-
-
-
 
 /*==============================
         PRICING
@@ -509,7 +455,7 @@ img.bg-icons2 {
             button {
                 margin: 0;
                 background: transparent;
-                padding: .8rem 2.4rem !important;
+                padding: 0.8rem 2.4rem !important;
                 border-radius: 50px;
                 font-weight: 600;
                 color: $txtColor;
@@ -522,7 +468,7 @@ img.bg-icons2 {
                 z-index: -1;
                 width: 50%;
                 height: 90%;
-                transition: .5s;
+                transition: 0.5s;
             }
 
             button.annually.active .bg-btn {
@@ -534,7 +480,6 @@ img.bg-icons2 {
             }
         }
     }
-
 
     .card-wrapper {
         // display: flex;
@@ -548,7 +493,7 @@ img.bg-icons2 {
             border-radius: 5px;
             overflow: hidden;
             margin: 2rem;
-            transition: .3s;
+            transition: 0.3s;
             width: 250px;
             position: relative;
 
@@ -564,7 +509,11 @@ img.bg-icons2 {
 
             .card-header {
                 padding: 5rem 0 3rem !important;
-                background: linear-gradient(0deg, rgba(244, 247, 249, 1) 0%, rgba(255, 255, 255, 1) 100%);
+                background: linear-gradient(
+                    0deg,
+                    rgba(244, 247, 249, 1) 0%,
+                    rgba(255, 255, 255, 1) 100%
+                );
                 color: $primaryColor;
 
                 .price {
@@ -587,7 +536,6 @@ img.bg-icons2 {
                 p {
                     margin: 0;
                 }
-
             }
 
             .card-body {
@@ -605,12 +553,11 @@ img.bg-icons2 {
                 margin: 1rem 0 0;
 
                 &:active {
-                    transform: scale(.9);
+                    transform: scale(0.9);
                 }
             }
 
             .save {
-
                 position: absolute;
                 top: -46px;
                 right: -36px;
@@ -628,7 +575,7 @@ img.bg-icons2 {
                     color: $logoColor;
                     font-weight: 700;
                     font-size: 20px;
-                    animation: saving .5s linear infinite alternate;
+                    animation: saving 0.5s linear infinite alternate;
                 }
 
                 p {
@@ -645,16 +592,12 @@ img.bg-icons2 {
     }
 }
 
-
-
-
-
-
 /*==============================
         TESTIMONIAL
  ==============================*/
 #testimonial {
-    height: auto;
+    // height: auto;
+    height: 60rem;
 
     .image-area {
         position: relative;
@@ -739,8 +682,8 @@ img.bg-icons2 {
         i {
             font-size: 3rem;
             margin: 5px;
-            opacity: .3;
-            transition: .3s;
+            opacity: 0.3;
+            transition: 0.3s;
             cursor: pointer;
 
             &:hover {
@@ -749,15 +692,11 @@ img.bg-icons2 {
             }
 
             &:active {
-                transform: scale(.8);
+                transform: scale(0.8);
             }
         }
     }
 }
-
-
-
-
 
 /*==============================
              FAQ
@@ -806,10 +745,6 @@ img.bg-icons2 {
     }
 }
 
-
-
-
-
 /*==============================
         DOWNLOAD
  ==============================*/
@@ -851,10 +786,6 @@ img.bg-icons2 {
     }
 }
 
-
-
-
-
 /*==============================
         FOOTER
  ==============================*/
@@ -882,10 +813,10 @@ img.bg-icons2 {
             }
 
             a {
-                transition: all .3s;
+                transition: all 0.3s;
 
                 &:active {
-                    transform: scale(.9);
+                    transform: scale(0.9);
                 }
             }
         }
@@ -904,7 +835,7 @@ img.bg-icons2 {
     .social-link {
         i {
             font-size: 2.7rem;
-            transition: all .5s;
+            transition: all 0.5s;
 
             &:hover {
                 color: #fff;
@@ -917,7 +848,6 @@ img.bg-icons2 {
         margin-top: 2rem;
     }
 }
-
 
 // To resize for my screen
 html {

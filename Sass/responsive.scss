@@ -1,10 +1,10 @@
 @media only screen and (min-width: 200px) and (max-width: 993px) {
     nav {
-        background: #F8F9FA;
+        background: #f8f9fa;
     }
 
     nav.navbar.sticky-top {
-        padding: .4rem 0 !important;
+        padding: 0.4rem 0 !important;
     }
 
     .inner-home-area {
@@ -12,7 +12,6 @@
         padding: 0 8rem;
 
         .home-image {
-
             // ===========
             img {
                 width: 40%;
@@ -45,7 +44,6 @@
         padding: 5rem;
     }
 
-
     #features {
         .img-section {
             padding: 5% 0;
@@ -55,7 +53,6 @@
             padding: 3rem 1rem 0;
         }
     }
-
 
     #smart-jackpot {
         padding: 0 0;
@@ -85,7 +82,6 @@
         }
     }
 
-
     #choosen-reason {
         padding: 0 0;
 
@@ -98,8 +94,8 @@
         }
     }
 
-
     #testimonial {
+        height: auto;
         .image-area {
             margin: 0 0 5rem;
 
@@ -126,11 +122,6 @@
 
     // ============ End of 992px ============
 }
-
-
-
-
-
 
 /*===============================
              Tab View
@@ -246,11 +237,6 @@
     // ============ End of 768px ============
 }
 
-
-
-
-
-
 @media only screen and (min-width: 200px) and (max-width: 576px) {
     .inner-home-area {
         padding: 0 2rem;
@@ -335,7 +321,6 @@
     #testimonial {
         .section-header-text p {
             margin: 2rem 0 1rem;
-
         }
 
         .control-btns {
@@ -350,13 +335,6 @@
 
     // ============ End of 576px ============
 }
-
-
-
-
-
-
-
 
 /*==================================
             Mobile View
@@ -403,13 +381,11 @@
     }
 
     #footer .wrapper ul li {
-        margin: 0 .5rem;
+        margin: 0 0.5rem;
     }
 
     // ============ End of 480px ============
 }
-
-
 
 @media only screen and (min-width: 200px) and (max-width: 400px) {
     .inner-home-area {
@@ -421,7 +397,7 @@
 
             .video-btn {
                 margin-left: 0 !important;
-                margin: 0 .5rem !important;
+                margin: 0 0.5rem !important;
             }
         }
     }
@@ -444,7 +420,7 @@
 
     #testimonial {
         .control-btns {
-            bottom: .5rem;
+            bottom: 0.5rem;
         }
 
         .identity-area .name {
@@ -456,7 +432,6 @@
         margin-left: -28rem !important;
     }
 }
-
 
 // ============ iPad Pro ============
 @media only screen and (min-width: 1024px) and (max-width: 1024px) {
@@ -490,7 +465,6 @@
     }
 }
 
-
 // ============ iPad Mini ============
 @media only screen and (min-width: 768px) and (max-width: 768px) {
     .inner-home-area .home-content {
@@ -502,5 +476,4 @@
         font-size: 2rem;
         line-height: 2.2rem;
     }
-
 }
